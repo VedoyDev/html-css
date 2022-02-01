@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem de fundo</title>
+</head>
+<body>
+    <h1>Inagaem de fundo dinamica</h1>
+    <hr>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem grande">
+    </picture>
+    <h1>Reprodução de audio</h1>
+    <audio src="midia/Gravação.m4a" controls autoplay></audio>
+    <h2>outra forma de reproduzir</h2>
+    <audio>
+        <source src="midia/Gravação.m4a" type="audio/m4a">
+    </audio>
+</body>
+</html>
