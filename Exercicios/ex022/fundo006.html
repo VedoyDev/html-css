@@ -7,11 +7,22 @@
     <title>Fonte</title>
     <style>
         body{
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/img.04.jpg);
             background-position: center top;
-            background-repeat: repeat-y;
-            background-size: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*
+            Shorthand - background
+            color > image > position > repeat > [size] > attachment
+
+            size não esta funcionando fazer separado
+            */
+
+            background: black url('imagens/img.04.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
